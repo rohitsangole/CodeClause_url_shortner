@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>url shortner</title>
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center;padding-bottom: 20px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="desktop-header">
+    <div class="container">
+      <div class="logo-img">
+        <img src="./images/mmm.svg.png" alt="">
+        <div class="bullet">
+          <div class="bullet1"></div>
+          <div class="bullet2"></div>
+          <div class="bullet3"></div>
+        </div>
+      </div>
+      <div class="navigation">
+        <nav class="features">
+          
+        </nav>
+       
+      </div>
+    </div>
+  </header>
+
+  <section class="illustration">
+    <div class="illustration-grid">
+      <div class="more">
+        <h1  data-aos="fade-right">More than just shorter links</h1>
+        <p class="build"  data-aos="fade-up" data-aos-delay="100">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+          <button class="started" data-aos="fade-up" data-aos-delay="100">Get Started</button>
+      </div>
+      <div class="illustration-img" data-aos="fade-left" data-aos-delay="100">
+        <img src="./images/illustration-working.svg" alt="" class="intro-img">
+      </div>
+    </div>
+  </section>
+
+  <div class="grey">
+    <div class="link-box">
+
+        <div class="input" data-aos="fade-up">
+          <div class="input-text">
+            <label for='text'></label>
+            <input type="text" name="link" id="shortenlink" placeholder="Shorten a link here..."aria-labelledby="please shortenlink text">
+            <p id='please'>Please add a link</p>
+          </div>
+          <button type="submit" class="shorten"> Shorten It!</button>
+        </div>
+      
+        <div class="lists">
+          
+        </div>
+    </div>
+    <section class="advanced">
+        <h1 data-aos="fade-up" data-aos-delay="100">Advanced Statistics</h1>
+        <p class="advanced-intro" data-aos="fade-up" data-aos-delay="200">Track how your links are performing across the web with our advanced statistics dashboard.</p>
+        <div class="statistics">
+          <div class="stats first-stat" data-aos="fade-up">
+            <div class="brand-img">
+              <img src="./images/icon-brand-recognition.svg" alt="">
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+          </div>
+
+          <div class="stats second-stat" data-aos="fade-up" data-aos-delay="50">
+            <div class="brand-img">
+              <img src="./images/icon-detailed-records.svg" alt="">
+            </div>
+            <h3>Detailed Records</h3>
+            <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+          </div>
+
+          <div class="stats third-stat"  data-aos="fade-up" data-aos-delay="100">
+            <div class="brand-img">
+              <img src="./images/icon-fully-customizable.svg" alt="">
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>Improve brand awareness and content discoverability through customizable 
+              links, supercharging audience engagement.</p>
+          </div>
+        </div>
+    </section>
+
+  </div>
+
+  
+
+
+  
+  
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800
+    });
+  </script>
+
+  <script src="./src/url.js"></script>
+</body>
+</html>
